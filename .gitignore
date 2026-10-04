@@ -1,5 +1,9 @@
-figures/
-figures_pure/
+# Generated output at the repository root only. These patterns are anchored
+# with a leading slash so they do NOT also match docs/figures/, which is
+# committed by the workflow.
+/figures/
+/figures_pure/
+
 __pycache__/
 *.pyc
 .venv/
