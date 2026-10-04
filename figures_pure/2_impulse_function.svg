@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='1274' height='500' viewBox='0 0 1274 500'>
+<rect width='1274' height='500' fill='#ffffff'/>
+<text x='637' y='30' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='17' font-weight='bold' text-anchor='middle' fill='#111'>Impulse Function</text>
+<line x1='130.00' y1='46.00' x2='130.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='130.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>-4</text>
+<line x1='234.00' y1='46.00' x2='234.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='234.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>-2</text>
+<line x1='338.00' y1='46.00' x2='338.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='338.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>0</text>
+<line x1='442.00' y1='46.00' x2='442.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='442.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>2</text>
+<line x1='546.00' y1='46.00' x2='546.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='546.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>4</text>
+<line x1='78.00' y1='352.11' x2='598.00' y2='352.11' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='70.00' y='356.11' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>0</text>
+<line x1='78.00' y1='246.56' x2='598.00' y2='246.56' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='70.00' y='250.56' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>0.5</text>
+<line x1='78.00' y1='141.00' x2='598.00' y2='141.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='70.00' y='145.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>1</text>
+<line x1='78.00' y1='352.11' x2='598.00' y2='352.11' stroke='#000' stroke-width='1.30'/>
+<line x1='338.00' y1='46.00' x2='338.00' y2='426.00' stroke='#000' stroke-width='1.30'/>
+<circle cx='338.00' cy='352.11' r='3.20' fill='#fff' stroke='#000' stroke-width='1.40'/>
+<rect x='78.00' y='46.00' width='520.00' height='380.00' fill='none' stroke='#999' stroke-width='1.00'/>
+<line x1='338.00' y1='352.11' x2='338.00' y2='141.00' stroke='#1f77b4' stroke-width='2.40'/>
+<polygon points='338.00,141.00 341.66,149.22 334.34,149.22' fill='#1f77b4'/>
+<text x='338.00' y='462.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='13' text-anchor='middle' fill='#000'>t</text>
+<text x='32.00' y='236.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='13' text-anchor='middle' fill='#000'>d(t)</text>
+<text x='338.00' y='32.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#123f6b' font-weight='bold'>Continuous-Time  d(t)  (Dirac delta)</text>
+<line x1='688.38' y1='46.00' x2='688.38' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='688.38' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>-10</text>
+<line x1='812.19' y1='46.00' x2='812.19' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='812.19' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>-5</text>
+<line x1='936.00' y1='46.00' x2='936.00' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='936.00' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>0</text>
+<line x1='1059.81' y1='46.00' x2='1059.81' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='1059.81' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>5</text>
+<line x1='1183.62' y1='46.00' x2='1183.62' y2='426.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='1183.62' y='441.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#444'>10</text>
+<line x1='676.00' y1='352.11' x2='1196.00' y2='352.11' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='668.00' y='356.11' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>0</text>
+<line x1='676.00' y1='246.56' x2='1196.00' y2='246.56' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='668.00' y='250.56' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>0.5</text>
+<line x1='676.00' y1='141.00' x2='1196.00' y2='141.00' stroke='#e3e3e3' stroke-width='1.00'/>
+<text x='668.00' y='145.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#444'>1</text>
+<line x1='676.00' y1='352.11' x2='1196.00' y2='352.11' stroke='#000' stroke-width='1.30'/>
+<line x1='936.00' y1='46.00' x2='936.00' y2='426.00' stroke='#000' stroke-width='1.30'/>
+<circle cx='936.00' cy='352.11' r='3.20' fill='#fff' stroke='#000' stroke-width='1.40'/>
+<rect x='676.00' y='46.00' width='520.00' height='380.00' fill='none' stroke='#999' stroke-width='1.00'/>
+<line x1='688.38' y1='352.11' x2='688.38' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='688.38' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='713.14' y1='352.11' x2='713.14' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='713.14' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='737.90' y1='352.11' x2='737.90' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='737.90' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='762.67' y1='352.11' x2='762.67' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='762.67' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='787.43' y1='352.11' x2='787.43' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='787.43' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='812.19' y1='352.11' x2='812.19' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='812.19' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='836.95' y1='352.11' x2='836.95' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='836.95' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='861.71' y1='352.11' x2='861.71' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='861.71' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='886.48' y1='352.11' x2='886.48' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='886.48' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='911.24' y1='352.11' x2='911.24' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='911.24' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='936.00' y1='352.11' x2='936.00' y2='141.00' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='936.00' cy='141.00' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='960.76' y1='352.11' x2='960.76' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='960.76' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='985.52' y1='352.11' x2='985.52' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='985.52' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1010.29' y1='352.11' x2='1010.29' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1010.29' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1035.05' y1='352.11' x2='1035.05' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1035.05' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1059.81' y1='352.11' x2='1059.81' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1059.81' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1084.57' y1='352.11' x2='1084.57' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1084.57' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1109.33' y1='352.11' x2='1109.33' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1109.33' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1134.10' y1='352.11' x2='1134.10' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1134.10' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1158.86' y1='352.11' x2='1158.86' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1158.86' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<line x1='1183.62' y1='352.11' x2='1183.62' y2='352.11' stroke='#1f77b4' stroke-width='1.80'/>
+<circle cx='1183.62' cy='352.11' r='3.60' fill='#1f77b4' stroke='#1f77b4' stroke-width='1.00'/>
+<text x='936.00' y='462.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='13' text-anchor='middle' fill='#000'>n</text>
+<text x='630.00' y='236.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='13' text-anchor='middle' fill='#000'>d[n]</text>
+<text x='936.00' y='32.00' font-family='DejaVu Sans,Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#123f6b' font-weight='bold'>Discrete-Time  d[n]  (Kronecker delta)</text>
+</svg>

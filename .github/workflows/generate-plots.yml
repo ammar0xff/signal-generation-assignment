@@ -1,0 +1,90 @@
+name: Generate Signal Plots
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Generate and verify plots
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy matplotlib
+
+      - name: Generate plots (matplotlib)
+        run: python signal_generation.py
+
+      - name: Generate plots (zero-dependency SVG fallback)
+        run: python signal_generation_pure.py
+
+      - name: Verify signal definitions
+        run: python verify_signals.py
+
+      - name: Fail if any figure is missing
+        run: |
+          set -euo pipefail
+          echo "PNG figures:"; ls -1 figures/*.png
+          echo "SVG figures:"; ls -1 figures_pure/*.svg
+          test "$(ls -1 figures/*.png | wc -l)" -eq 6
+          test "$(ls -1 figures_pure/*.svg | wc -l)" -eq 5
+
+      - name: Upload figures as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal-plots
+          path: |
+            figures/*.png
+            figures_pure/*.svg
+          if-no-files-found: error
+
+  # Publish the generated PNGs back into the repo so the README can show them.
+  publish:
+    name: Commit figures to repo
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Download figures artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: signal-plots
+          path: artifacts
+
+      - name: Copy figures into docs/figures
+        run: |
+          mkdir -p docs/figures
+          cp artifacts/*.png docs/figures/
+          cp artifacts/*.svg docs/figures/
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/figures
+          if git diff --staged --quiet; then
+            echo "No figure changes to commit."
+          else
+            git commit -m "chore: regenerate signal plots [skip ci]"
+            git push
+          fi
