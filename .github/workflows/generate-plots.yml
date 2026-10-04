@@ -74,8 +74,11 @@ jobs:
       - name: Copy figures into docs/figures
         run: |
           mkdir -p docs/figures
-          cp artifacts/*.png docs/figures/
-          cp artifacts/*.svg docs/figures/
+          # download-artifact preserves the uploaded directory structure,
+          # so the paths arrive as artifacts/figures and artifacts/figures_pure.
+          cp artifacts/figures/*.png docs/figures/
+          cp artifacts/figures_pure/*.svg docs/figures/
+          ls -1 docs/figures/
 
       - name: Commit and push
         run: |
